@@ -1,2 +1,2 @@
 #!/bin/bash
-find .type f -name "*.js" -exex rm {} ;
+find .type f -name "*.js" -exec rm {} \;
